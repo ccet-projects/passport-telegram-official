@@ -1,12 +1,11 @@
 {
   "name": "passport-telegram-official",
-  "version": "1.1.0",
+  "version": "1.1.1-ccet",
   "description": "Telegram authentication strategy for Passport (https://core.telegram.org/widgets/login)",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-
   "scripts": {
     "build": "microbundle --target node --external crypto,lodash",
     "prepublish": "npm run build",
